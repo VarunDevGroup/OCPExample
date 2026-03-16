@@ -4,11 +4,11 @@ using System.Text;
 
 namespace OCPCorrectImplementation.Services
 {
-    internal class InStoreOrder : IOrderProcessMethod
+    internal class WordProcessor : IDocumentProcess
     {
-        public string ProcessOrder()
+        public string ProcessDocument()
         {
-            return "Processing in-store order.";
+            return "Processing Word Document.";
         }
     }
 }

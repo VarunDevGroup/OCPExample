@@ -4,8 +4,8 @@ using System.Text;
 
 namespace OCPCorrectImplementation.Services
 {
-    public interface IOrderProcessMethod
+    public interface IDocumentProcess
     {
-        public string ProcessOrder();
+        public string ProcessDocument();
     }
 }

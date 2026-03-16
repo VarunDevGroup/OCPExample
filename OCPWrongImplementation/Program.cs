@@ -7,10 +7,10 @@ namespace OCPWrongImplementation
         static void Main(string[] args)
         {
           
-            ProcessOrder processOrder = new ProcessOrder();
-            Console.WriteLine("Order 1 :" + processOrder.Process("Online"));
+            ProcessDocument processDocument = new ProcessDocument();
+            Console.WriteLine("Doc 1 :" + processDocument.Process("WORD"));
 
-            Console.WriteLine("Order 2 :" + processOrder.Process("InStore"));
+            Console.WriteLine("Doc 2 :" + processDocument.Process("PDF"));
 
             Console.ReadLine();
         }

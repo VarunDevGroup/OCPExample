@@ -6,11 +6,11 @@ namespace OCPCorrectImplementation
     {
         static void Main(string[] args)
         {
-            ProcessOrder processFirstOrder = new ProcessOrder(new OnlineOrder());
-            Console.WriteLine(processFirstOrder.Process());
+            DocumentParser processPDF = new DocumentParser(new PDFProcessor());
+            Console.WriteLine(processPDF.Process());
 
-            ProcessOrder processSecondOrder = new ProcessOrder(new InStoreOrder());
-            Console.WriteLine(processSecondOrder.Process());
+            DocumentParser processWord = new DocumentParser(new WordProcessor());
+            Console.WriteLine(processWord.Process());
 
 
 

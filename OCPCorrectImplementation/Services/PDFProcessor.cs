@@ -4,11 +4,11 @@ using System.Text;
 
 namespace OCPCorrectImplementation.Services
 {
-    internal class OnlineOrder : IOrderProcessMethod
+    internal class PDFProcessor : IDocumentProcess
     {
-        public string ProcessOrder()
+        public string ProcessDocument()
         {
-            return "Processing Online order.";
+            return "Processing PDF Document";
         }
     }
 }
